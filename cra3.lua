@@ -1,5 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kozy6969/iywithoutguihiddencuziyisnoobforhidingtheirguixdxdhowlongcanimakethiswoahthisisprettylongwtfhellowha/main/iy.lua"))()
-function hasGamepass(plrId, id)
+
 print("broken for now")
 end
 quitosad = {'"ermmm what the flip!!" - puncy', 'dogcrash is mid asl', 'add me to your whitelist NOW', 'ermmm the virus got server???', '"ok" - knocks', '"i like kids" - tech', "quiving has 2 cows, one is australian and one is austrian", "capybara's capybara ate quivings watermelons and when he found out he stole the capybara and did bad things to it", "joe toe likes men", "puncy likes men", "tech likes men", "quivings likes watching gay men putting make up on", "ermmm the server got virus???", "ermmm the hacked got server????", "ermmmm the server got hacked???", "quiving does NOT have symmetrical eyes","tell him to bring out the whole ocean!","lets go golfing!","life... is roblox...","never back down!! never give up!","i need more boolets!! 💯 🔥","im gonna braek my monityur, i swaer!!","bigger weapons!!! 🥵 💦","mrrp mrrp mrrp meow mrrp meow","owo","uwu","mrrp mrrp meowww mrrp mawo miau nya meowwwwwwwwwwwwwwww","outcrashing skiddies","capybara on top", "kupibrra in the middle", "guys i have an fe bypass!!!","server crashed by snekka SS","i- ermm- what!?!?","damix likes femboys", "heaven likes sea!!","kel is a framboy (real)","tech does not like gay people :("}
@@ -11568,6 +11567,7 @@ end
             socc(p2)
 end)
 end)
+if _G.plug then
 task.spawn(function()
 	while true do
 		wait()
@@ -11700,6 +11700,7 @@ cht("blind "..plr.." "..math.random(1, 1000))
 			wait(.14)
 end
 end)
+end
 local function handleChar(p)
             p.CharacterAdded:Connect(function(char) 
             if table.find(baned, p.Name) then
@@ -11812,17 +11813,6 @@ cht("pm/kohls \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n 
 cht("pm/g_odt \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  no u \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
 					end)
 		local teck2 = tick()
-	_G.menisactive = {}
-for i,v in ipairs(sntipetanle) do
-	if game.workspace:FindFirstChild(v) or game.Lighting:FindFirstChild(v) then
-	cht("unshirt "..v)
-_G.menisactive = game.Players[v].CharacterAdded:Connect(function()
-if not game.Players:FindFirstChild(v) then _G.menisactive:disconnect() end
-wait(.5)
-cht("undress "..v)
-	end)
-	end
-	end
 		print("loaded kozy . do cx in "..roundNumber(teck-teck2,2).." seconds")
 		logn("loaded kozy . doc x in "..roundNumber(teck-teck2,2).." seconds")
 getgenv().iscrashed = false
