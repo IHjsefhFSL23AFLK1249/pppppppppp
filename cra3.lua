@@ -11810,17 +11810,6 @@ ba(p7)
 end)
 cht("pm/kohls \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  no u \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
 cht("pm/g_odt \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  no u \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
-task.spawn(function()
-while true do
-	pcall(function()
-for i, v in pairs(game.Players:GetPlayers()) do
-	if v.Name == "ijustcrashedyourgame" then
-		game.Players:ReportAbuse(game:GetService("Players"),v.Name,"Cheating/Exploiting", "Spamming with exploits. "..math.random(1, 1000))
-	end
-	wait(3.3)
-end
-end)
-end
 					end)
 		local teck2 = tick()
 	_G.menisactive = {}
@@ -11837,22 +11826,3 @@ cht("undress "..v)
 		print("loaded kozy . do cx in "..roundNumber(teck-teck2,2).." seconds")
 		logn("loaded kozy . doc x in "..roundNumber(teck-teck2,2).." seconds")
 getgenv().iscrashed = false
-task.spawn(function() -- made by iidk, thanks bby <3
-while true do
-wait(1)
-function checkIsCrashed()
-    local Ping1 = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
-        task.wait(1.5)
-        local Ping2 = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
-    
-        if Ping1 == Ping2 then getgenv().iscrashed = true else getgenv().iscrashed = false end
-		if getgenv().iscrashed == true then
-			logn("(check was made by iidk <3), u may have been crashed OwO please shop when u want to")
-		end
-end
-checkIsCrashed()
-end
-end)
-execCmd("clogs")
-execCmd("brightness .85")
-setfpscap(math.huge)
