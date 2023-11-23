@@ -5126,7 +5126,7 @@ getgenv().muainananana.IgnoreGuiInset = true
 	cht("fogcolor 65 105 225")
 	cht("<gmusic6")
 	cht("time 16")
-	game.Players:Chat("h/ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n sckah . xyz \n \n this silcrash is presented by.... \n \n Kozy!!!!!!!!! \n \n "..quitosad[math.random(1, #quitosad)].." \n \n dogcrashing sucks...")
+	game.Players:Chat("h/ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n sckah . xyz \n \n this silcrash is presented by.... \n \n Kozy!!!!!!!!! \n \n  \n \n dogcrashing sucks...")
 	repeat wait(.02) until game:GetService("Workspace").Terrain["_Game"].Folder:FindFirstChild("Message")
 local id = startmeasure()
 	cht("unchar others")
