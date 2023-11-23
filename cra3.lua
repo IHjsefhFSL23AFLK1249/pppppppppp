@@ -1,6 +1,4 @@
 
-print("broken for now")
-end
 quitosad = {'"ermmm what the flip!!" - puncy', 'dogcrash is mid asl', 'add me to your whitelist NOW', 'ermmm the virus got server???', '"ok" - knocks', '"i like kids" - tech', "quiving has 2 cows, one is australian and one is austrian", "capybara's capybara ate quivings watermelons and when he found out he stole the capybara and did bad things to it", "joe toe likes men", "puncy likes men", "tech likes men", "quivings likes watching gay men putting make up on", "ermmm the server got virus???", "ermmm the hacked got server????", "ermmmm the server got hacked???", "quiving does NOT have symmetrical eyes","tell him to bring out the whole ocean!","lets go golfing!","life... is roblox...","never back down!! never give up!","i need more boolets!! 💯 🔥","im gonna braek my monityur, i swaer!!","bigger weapons!!! 🥵 💦","mrrp mrrp mrrp meow mrrp meow","owo","uwu","mrrp mrrp meowww mrrp mawo miau nya meowwwwwwwwwwwwwwww","outcrashing skiddies","capybara on top", "kupibrra in the middle", "guys i have an fe bypass!!!","server crashed by snekka SS","i- ermm- what!?!?","damix likes femboys", "heaven likes sea!!","kel is a framboy (real)","tech does not like gay people :("}
 local box = game:GetService("Workspace").Terrain["_Game"].Workspace["Obby Box"]:GetChildren()
 local objs = workspace.Terrain._Game.Workspace.Obby:GetChildren()
