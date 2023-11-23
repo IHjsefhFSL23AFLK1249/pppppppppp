@@ -21,13 +21,6 @@ task.spawn(function()
 		end)
 
 _G.HasOnlyPerson = false
-if hasGamepass(game.Players.LocalPlayer.UserId, 35748) or hasGamepass(game.Players.LocalPlayer.UserId, 37127) then
-_G.HasOnlyPerson = true
-end
-wait()
-if hasGamepass(game.Players.LocalPlayer.UserId, 64354) or hasGamepass(game.Players.LocalPlayer.UserId, 66254) then
-	_G.HasOnlyPerson = false
-end
 getgenv().papr = {}
 workspace.Camera.FieldOfView = 75
 workspace.Camera:GetPropertyChangedSignal("FieldOfView"):Connect(function()
