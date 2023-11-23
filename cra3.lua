@@ -11727,13 +11727,7 @@ cht("h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n join sckah . 
 			cht(prefix.."bypscrav2 "..p5.Name)
 			end
 end)
-			            game.Players.PlayerAdded:Connect(function(p7)
-            if antiperm == true and not table.find(whitelistpropeopleonly, p7.Name) and hasGamepass(p7.UserId, 66254) then
-repeat task.wait() until getgenv().che == true
-			wait(.35)
-				cht(prefix.."scrav2 "..p7.Name)
-			end
-			end)
+
 			            game.Players.PlayerAdded:Connect(function(p6)
             if scoc2 == true and not table.find(whitelistpropeopleonly, p6.Name) then
 wait(.36)
