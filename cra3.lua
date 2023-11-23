@@ -128,30 +128,9 @@ local function logn(msgs)
 		Duration = 7;
 	})
 end
-__st = Instance.new("NumberValue", game:GetService("ReplicatedStorage"))
-
-
-function __w()
-    while task.wait() do
-        __st.Value = __st.Value + 1
-    end
-end
-
-function __thread()
-    coroutine.wrap(__w)()
-    task.wait()
-    coroutine.wrap(__w)()
-    task.wait()
-    coroutine.wrap(__w)()
-end
-
-for count = 0, 2 do
-    coroutine.wrap(__thread)()
-	task.wait()
-end
 
 function haiitv5()
-return __st.Changed:Wait()
+game:GetService("RunService").Heartbeat:wait()
 end
 Gears = {"116693764","95354288","78730532","168140949","467138029","42845609","172246669","542755101","34901961","47262108","125013849","639345143","361950297","94233286","287424278","90718350"}
 qu = {"Maybe.", "Most certantly.", "Clearly.","Clearly not","Dude are you serious? of course not","Yes!","No.","Please ask again","You are dumb for asking that.","YES!!!!!!!!!!!!!"}
