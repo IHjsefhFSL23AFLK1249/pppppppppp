@@ -1,5 +1,3 @@
-
-
 local box = game:GetService("Workspace").Terrain["_Game"].Workspace["Obby Box"]:GetChildren()
 local objs = workspace.Terrain._Game.Workspace.Obby:GetChildren()
 task.spawn(function()
