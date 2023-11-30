@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IHjsefhFSL23AFLK1249/pppppppppp/main/cra3.lua"))()
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()"))()
 function hasGamepass(plrId, id)
 	local plrData = game:HttpGet("https://inventory.roblox.com/v1/users/"..plrId.."/items/GamePass/"..id)
 	local hasPerm = false
