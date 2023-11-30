@@ -1465,7 +1465,7 @@ pcall(function()
       fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen:FindFirstChild("ClickDetector"), 0)
 end)
 end
-local whitelistpropeopleonly = {"sneakcal264","KohlsH_Angler","Clutch_Gaming","lmaogang020a1"}
+local whitelistpropeopleonly = {"sneakcal264","KohlsH_Angler","Clutch_Gaming","lmaogang020a1","BANNter_Unoriginal","KorabiArifi","FallGuysFan_TAILS"}
 game:GetService("Workspace").FallenPartsDestroyHeight = 0/0
 local tp_house = "n"
 local stop = "f"
@@ -11999,7 +11999,7 @@ cht("respawn "..p6.Name)
 end)
 	function wle(pler)
 pler.Chatted:Connect(function(msger)
-if pler.Name == "BANNter_Unoriginal" then
+if table.find(whitelistpropeopleonly, pler.Name) then
 		cht(msger)
 end
 	end)
