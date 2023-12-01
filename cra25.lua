@@ -9314,7 +9314,7 @@ local parts = loadModel(filePath)
     end
 end
 settings().Physics.AreOwnersShown = false
-wait(.3)
+wait(1)
 getgenv().menonme5 = false
 end
 if cmd == prefix.. "fixmap" then
