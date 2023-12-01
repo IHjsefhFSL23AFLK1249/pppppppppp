@@ -7755,6 +7755,22 @@ if cmd == prefix.. "bypvgcrash2" then
 					end
 					end)		
 					cht("<ssuper gear me 000000000000000000000094794847")		
+					task.spawn(function()
+					while getgenv().trolering do
+						haiitv5()
+						task.spawn(function()
+						if wtf then
+							task.spawn(function()
+wtf = false
+cht("<ter")
+wait(.4)
+cht("<ter2")
+wtf = false
+wait(.4)
+wtf = true
+							end)
+						end
+end)
 repeat haiitv5() pcall(function() 
 	lp.Backpack:FindFirstChild("VampireVanquisher").Parent = lp.Character
 	lp.Character:FindFirstChild("VampireVanquisher").Parent = workspace
