@@ -8176,7 +8176,7 @@ getgenv().test9 = 0
 getgenv().mode = 1
 xd2 = -.05
 xd3 = 0
-table.insert(_G.jotunnhasmenoverhimniggersinmyassuwuwhahaniggershahaomghniggersaresouglytbhniggershahahtheyaresoclowntbh, __st.Changed:Connect(function()
+table.insert(_G.jotunnhasmenoverhimniggersinmyassuwuwhahaniggershahaomghniggersaresouglytbhniggershahahtheyaresoclowntbh, Heartbeat:Connect(function()
 	-- // Parts table
 	if getgenv().mode == 1 then
 	getgenv().Orbit.Parts = getgenv().Orbit.GetParts()
