@@ -9328,6 +9328,8 @@ local parts = loadModel(filePath)
     end
 end
 settings().Physics.AreOwnersShown = false
+wait(.1)
+getgenv().menonme5 = true
 end
 if cmd == prefix.. "fixmap" then
 	local function trueorfalse(name)
