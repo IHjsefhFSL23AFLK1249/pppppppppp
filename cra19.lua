@@ -7755,7 +7755,6 @@ if cmd == prefix.. "bypvgcrash2" then
 					end
 					end)		
 					cht("<ssuper gear me 000000000000000000000094794847")		
-end)
 repeat haiitv5() pcall(function() 
 	lp.Backpack:FindFirstChild("VampireVanquisher").Parent = lp.Character
 	lp.Character:FindFirstChild("VampireVanquisher").Parent = workspace
