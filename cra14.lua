@@ -1253,6 +1253,8 @@ getgenv().m222en = true
 task.spawn(function()
 	while getgenv().m222en do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cp
+								nograv()
+								game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 task.wait()
 	end
 end)
@@ -1331,6 +1333,8 @@ task.spawn(function()
 		task.wait()
 		pcall(function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cp
+								nograv()
+								game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 		end)
 	end
 end)
@@ -1414,6 +1418,8 @@ task.spawn(function()
 		task.wait()
 		pcall(function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cp
+								nograv()
+								game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 		end)
 	end
 end)
