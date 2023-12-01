@@ -5371,8 +5371,6 @@ if cmd == prefix.."timepos" then
 end
 if cmd == prefix.."silcrash" then
 	cht("fogend 50")
-getgenv().muainananana.Enabled = false
-getgenv().muainananana.IgnoreGuiInset = true
 	cht("fogcolor 65 105 225")
 	cht("<gmusic6")
 	cht("time 16")
