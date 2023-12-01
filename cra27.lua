@@ -9123,9 +9123,8 @@ getgenv().pdownoffsert = 1.5
             settings().Physics.AllowSleep = false
 							 end)
 task.spawn(function()
-setfflag("ObeyTheSimLimit", "false")
 lp.MaximumSimulationRadius = 999999999999
-sethiddenproperty(lp, "SimulationRadius", 9999999.99)
+sethiddenproperty(lp, "SimulationRadius", 999.99)
 end)
 task.spawn(function()
     coroutine.resume(coroutine.create(function()
@@ -9198,7 +9197,7 @@ end)
 			setfflag("ObeyTheSimLimit", "false")
 				local LocalPlayer = game:GetService("Players").LocalPlayer
 	LocalPlayer.MaximumSimulationRadius = math.huge
-sethiddenproperty(lp, "SimulationRadius", 9999999.99)
+sethiddenproperty(lp, "SimulationRadius", 999.99)
 	task.spawn(function()
     coroutine.resume(coroutine.create(function()
 	for i,v in ipairs(game.Players:GetPlayers()) do
