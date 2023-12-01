@@ -11998,11 +11998,9 @@ _G.realratelimiter = false
 pler.Chatted:Connect(function(msger)
 if table.find(whitelistpropeopleonly, pler.Name) and not _G.realratelimiter then
 		cht(msger)
-task.spawn(function()
 _G.realratelimiter = true
 wait(.5)
 _G.realratelimiter = false
-end)
 end
 	end)
 end
