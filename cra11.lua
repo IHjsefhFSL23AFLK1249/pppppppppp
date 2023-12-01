@@ -1337,7 +1337,7 @@ end)
 repeat task.wait() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cp until game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame == cp
 wait(.1999999)
 charclickivory()
-wait(.1.1)
+wait(.11)
 getgenv().m222en = false
 looping = true
 workspace.Camera.CFrame = CFrame.new(-35.5341682, 12.2201633, 1.41204453, -0.999289632, -0.0133956494, 0.0352252051, 9.31322464e-10, 0.934694886, 0.355451316, -0.0376863144, 0.355198801, -0.93403089)
