@@ -329,15 +329,6 @@ function cht(massage)
 game.Players:Chat(massage)
 end
 local function startcmds()
-cht("<softantivg")
-wait(.1)
-cht("<antinoclip")
-wait()
-cht("<antisit")
-cht("<emoji")
-cht('<antirk')
-cht("<afkcheck")
-cht("<antinamebreak")
 end
 
 game:GetService("Workspace").FallenPartsDestroyHeight = 0/0
