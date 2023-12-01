@@ -9316,6 +9316,8 @@ settings().Physics.AreOwnersShown = false
 wait(1)
 end
 if cmd == prefix.. "fixmap" then
+if not _G.realgruhh then
+_G.realgruhh = true
 	local function trueorfalse(name)
 	for i,v in pairs(ogcframes) do
 		if i == name then
@@ -9341,6 +9343,10 @@ if cmd == prefix.. "fixmap" then
 		trueorfalse(c.Name)
 		end
 	end
+else
+wait(.7)
+_G.realgruhh = false
+end
 end
 if cmd == prefix.."loadmap" then
 	local checker = false
