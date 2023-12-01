@@ -2351,6 +2351,7 @@ end
 					   for i = 0,1 do
 						   cht("gear me 00000000000000000092628079")
 					   end
+				
 					   repeat task.wait() until #lp.Backpack:GetChildren() > 1
 	wait(.056)
 	cht("<ut")
@@ -2364,9 +2365,17 @@ local args = {
 v.ServerControl:InvokeServer(unpack(args))
 		end
 	end
+				cht("size all .3")
+				cht("size all .3")
+				cht("rocket/ all all all")
+				cht("freeze/ all all all")
+				cht("size all 10")
+				cht("size all 10")
+				cht("size all 10")
 		wait(.1)
-	for i = 0,128 do
+while true do
 		cht("unsize all all all")
+	task.wait()
 	end
 				   end
 
