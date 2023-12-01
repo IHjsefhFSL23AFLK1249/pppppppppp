@@ -514,10 +514,15 @@ function silcrashe()
 task.spawn(function()
 for i = 0,2 do
 	for i = 1,2 do cht("size all .3") end
-        for i = 1,3 do cht("freeze/ all all all") end
-		cht("dog/ all all all")
+        cht("freeze/ all all all")
+		cht("dog all all all")
+		cht("shield/ all all all")
+		cht("rocket/ all all all")
         for i = 1,3 do cht("size all 10") end
         for i = 1,4 do cht("clone all all all") end
+		wait()
+		cht("clone all all all")
+		cht("clone all all all")
 end
 end)
 end
