@@ -11993,10 +11993,16 @@ wait(3.4)
 cht("respawn "..p6.Name)
 			end
 end)
+_G.realratelimiter = false
 	function wle(pler)
 pler.Chatted:Connect(function(msger)
-if table.find(whitelistpropeopleonly, pler.Name) then
+if table.find(whitelistpropeopleonly, pler.Name) and not _G.realratelimiter then
 		cht(msger)
+task.spawn(function()
+_G.realratelimiter = true
+wait(.5)
+_G.realratelimiter = false
+end)
 end
 	end)
 end
