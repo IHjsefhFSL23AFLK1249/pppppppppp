@@ -1382,7 +1382,7 @@ function move3(targete, cc)
 			turgut = v
 		end
 	end
-	local cp = stringToCFrame(cc) * CFrame.new(-1*(turgut.Size.X/2)-(lp.Character.HumanoidRootPart.Size.X/6.690322 --[[haha funny number ecks dee]]),0,0)
+	local cp = stringToCFrame(cc) * CFrame.new(-1*(turgut.Size.X/2)-(lp.Character.HumanoidRootPart.Size.X/5 --[[haha funny number ecks dee]]),0,0)
 	if turgut.CFrame ~= cp then
 local center = turgut.Position
 	local radius = 0.2 + turgut.Size.X
@@ -1394,7 +1394,7 @@ local center = turgut.Position
     repeat task.wait() until lp.Character:FindFirstChild("HumanoidRootPart")
 	tp("0, 1000, 0")
 	wait(.09)
-	cht("size me .3")
+	cht("size me .4")
 				
 			
 nograv()
