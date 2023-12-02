@@ -9204,6 +9204,7 @@ v.Massless = true
 end
 end)
                 repeat haiitv5() until part
+	wait(.02)
 				workspace.StreamingEnabled = false
 							 		             task.spawn(function()
 								setscriptable(workspace,"PhysicsSteppingMethod",true)
