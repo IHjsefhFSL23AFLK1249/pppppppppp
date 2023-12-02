@@ -1210,8 +1210,8 @@ looping = true
 					end
 				end)
 wait()
-				spawn(function() while looping do game:GetService("RunService").Heartbeat:wait()  cht('unpunish me,me,me,me') game:GetService("RunService").Heartbeat:wait()  cht('unpunish me,me,me,me') end end)
-				repeat hait() until lp.Character.Torso:FindFirstChild("Weld")
+				spawn(function() while looping do game:GetService("RunService").Heartbeat:wait()  cht('unpunish/ me me me') end end)
+				repeat hait() until lp.Character.Torso:FindFirstChild("Weld") or lp.Character.Torso:FindFirstChild("Snap")
 				looping = false
 end
 local function tp(cc)
@@ -1360,7 +1360,7 @@ workspace.Camera.Focus = CFrame.new(-35.1678848, 5.19999933, 16.0815659, 1, 0, 0
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = turgut.CFrame * CFrame.new(-1*(turgut.Size.X/2)-(game.Players.LocalPlayer.Character['HumanoidRootPart'].Size.X/2), 0, 0) end end  end end)
 				task.spawn(function() while looping do task.wait()  cht('unpunish/ me me me') end end)
 								task.spawn(function() while looping do game:GetService("RunService").Heartbeat:wait() pcall(function() for i,v in ipairs(lp.Character.Torso:GetChildren()) do if v:IsA("Weld") and v.Part1 ~= turgut then v:Destroy() end end end) end end)
-				repeat hait() until lp.Character.Torso:FindFirstChild("Weld")
+repeat hait() until lp.Character.Torso:FindFirstChild("Weld") or lp.Character.Torso:FindFirstChild("Snap")
 				looping = false
 				wait(.15)
 				charclickivory()
@@ -1444,7 +1444,7 @@ workspace.Camera.Focus = CFrame.new(-35.1678848, 5.19999933, 16.0815659, 1, 0, 0
 						game.Players.LocalPlayer.Character.PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = turgut.CFrame * CFrame.new(-1*(turgut.Size.X/2)-(game.Players.LocalPlayer.Character['HumanoidRootPart'].Size.X/2), 0, 0) end end  end end)
 				task.spawn(function() while looping do task.wait()  cht('unpunish/ me me me') end end)
-				repeat hait() until lp.Character.Torso:FindFirstChild("Weld")
+repeat hait() until lp.Character.Torso:FindFirstChild("Weld") or lp.Character.Torso:FindFirstChild("Snap")
 				looping = false
 				wait(.10)
 				charclickivory()
