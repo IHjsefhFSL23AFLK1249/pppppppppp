@@ -1674,10 +1674,8 @@ local a = "nig"
 function rado()
 return randomsymgen[math.random(8, #randomsymgen)]..randomsymgen[math.random(3, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]..randomsymgen[math.random(1, #randomsymgen)]
 end
-_G.lolmanratelimitsuckssass = true
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
-		if _G.lolmanratelimitsuckssass then
-			print(_G.lolmanratelimitsuckssass)
         if string.sub(msg:lower(), 0, 4) == prefix .. "bek" then
             local player = string.sub(msg:lower(), 5)
 cht("setgrav"..player.." 2000")
@@ -3917,10 +3915,7 @@ game.Workspace.Pulse:Destroy()
 end
 end
 end
-						_G.lolmanratelimitsuckssass = false
-			wait(.5)
-			_G.lolmanratelimitsuckssass = true
-		end
+
 end)
 -- dogsploit things i skidded for ababned ban
 local Players = game:GetService("Players")
@@ -4005,8 +4000,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(m)
         local t = mm[2]
 local j = mm[3]
 local k = mm[4]
-		if _G.lolmanratelimitsuckssass then
-			print(_G.lolmanratelimitsuckssass)
+
 if cmd == prefix.. "clogs" then
 cht("logs")
 wait(.5)
@@ -11789,9 +11783,6 @@ if cmd == prefix.."emroff" then
 	cht("reset me")
 	cht(prefix.."fresh")
 end
-			_G.lolmanratelimitsuckssass = false
-wait(.5)
-_G.lolmanratelimitsuckssass = true
 end
 end)
 for i, v in pairs(game.Players:GetPlayers()) do
