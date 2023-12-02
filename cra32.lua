@@ -8404,7 +8404,7 @@ elseif getgenv().mode == 7 then
 			local test2 = test / 700000
 			xd0 = xd0 + test2
 part.CFrame = CFrame.new(getgenv().target.HumanoidRootPart.Position)
-								*CFrame.Angles(math.rad(xd0 + 3, xd0 -.5, xd0 + 5),math.rad((getgenv().test7/#AllParts*i+(tick())*getgenv().speed * 100/(#AllParts ~= 0 and #AllParts or 1))%getgenv().test8),xd3)
+								*CFrame.Angles(math.rad(xd0 + 3, xd0 -.5, xd0 + 5),math.rad(xd0+(getgenv().test7/#AllParts*i+(tick())*getgenv().speed * 100/(#AllParts ~= 0 and #AllParts or 1))%getgenv().test8),xd3)
 								*CFrame.new(getgenv().test, xd * 2.1, (getgenv().radius+#AllParts)*.35+part.Size.X * Y)
 								*CFrame.Angles(Y / getgenv().test3,xd3 / 1.5,getgenv().test5)
 							
