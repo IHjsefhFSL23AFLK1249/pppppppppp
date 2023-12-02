@@ -9204,7 +9204,7 @@ v.Massless = true
 end
 end)
                 repeat haiitv5() until part
-	wait(.02)
+
 				workspace.StreamingEnabled = false
 							 		             task.spawn(function()
 								setscriptable(workspace,"PhysicsSteppingMethod",true)
@@ -9232,6 +9232,7 @@ sethiddenproperty(lp, "SimulationRadius", 999.99)
 end))
 	end)
 												  end)
+	wait(.1)
 												  coroutine.resume(coroutine.create(function()
 													part.Massless = true
 				part.CanCollide = false
