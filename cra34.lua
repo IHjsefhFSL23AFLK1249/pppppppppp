@@ -7884,6 +7884,11 @@ until lp.Character:FindFirstChild("VampireVanquisher") or workspace:FindFirstChi
   wait()
   cht("respawn me")
   cht("gear all 0000000000000000000000000253519495")
+  cht("gear all 0000000000000000000000000253519495")
+task.spawn(function() repeat wait() until lp.Backpack:FindFirstChild("DriveBloxUltimateCar") 
+		cht("<ut")
+		droptools()
+	end)
   task.spawn(function()
   while getgenv().proerthanu do
 	  wait(.9)
