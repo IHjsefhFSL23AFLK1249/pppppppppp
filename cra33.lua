@@ -1677,7 +1677,6 @@ end
 _G.lolmanratelimitsuckssass = false
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if not _G.lolmanratelimitsuckssass then
-			_G.lolmanratelimitsuckssass = true
         if string.sub(msg:lower(), 0, 4) == prefix .. "bek" then
             local player = string.sub(msg:lower(), 5)
 cht("setgrav"..player.." 2000")
@@ -3917,8 +3916,9 @@ game.Workspace.Pulse:Destroy()
 end
 end
 end
+						_G.lolmanratelimitsuckssass = true
 			wait(.5)
-			_G.lolmanratelimitsuckssass = true
+			_G.lolmanratelimitsuckssass = false
 		end
 end)
 -- dogsploit things i skidded for ababned ban
@@ -4005,7 +4005,6 @@ game.Players.LocalPlayer.Chatted:Connect(function(m)
 local j = mm[3]
 local k = mm[4]
 		if not _G.lolmanratelimitsuckssass then
-			_G.lolmanratelimitsuckssass = true
 if cmd == prefix.. "clogs" then
 cht("logs")
 wait(.5)
@@ -11788,8 +11787,9 @@ if cmd == prefix.."emroff" then
 	cht("reset me")
 	cht(prefix.."fresh")
 end
+			_G.lolmanratelimitsuckssass = true
 wait(.5)
-_G.lolmanratelimitsuckssass = true
+_G.lolmanratelimitsuckssass = false
 end
 end)
 for i, v in pairs(game.Players:GetPlayers()) do
