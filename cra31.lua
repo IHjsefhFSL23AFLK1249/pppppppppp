@@ -11783,7 +11783,6 @@ if cmd == prefix.."emroff" then
 	cht("reset me")
 	cht(prefix.."fresh")
 end
-end
 end)
 for i, v in pairs(game.Players:GetPlayers()) do
     table.insert(subaned, v.Name)
