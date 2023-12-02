@@ -9289,6 +9289,7 @@ end
 
                 return part
 		end)
+	wait(.2)
 	getgenv().Finisheddd = true
 				end
 			
@@ -9331,12 +9332,13 @@ local parts = loadModel(filePath)
                             for _, newPart in ipairs(newParts) do
                                 newpart(newPart.Size.X, newPart.Size.Y, newPart.Size.Z, tostring(newPart.CFrame), newPart.CFrame, newPart.Color)
                                 newPart:Destroy()
-				
+				repeat wait() until getgenv().Finisheddd == true
                             end
                             --    DisplayText("[Vecko]: ", "Part was split into "..splitCount.." smaller parts.")
                         else
                             newpart(v.Size.X, v.Size.Y, v.Size.Z,tostring(v.CFrame), v.CFrame, v.Color)
                             v:Destroy()
+			repeat wait() until getgenv().Finisheddd == true
                         end
                     
     end
