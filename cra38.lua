@@ -9165,6 +9165,8 @@ end))
 	end)
 	execCmd("antilag")
             function newpart(x,y,z, pas, pos, c)
+	getgenv().Finisheddd = false
+	task.spawn(function()
 local lolxd = {}
 			getgenv().menonme4 = true
                 local part;
@@ -9286,6 +9288,8 @@ end
 				end)
 
                 return part
+		end)
+	getgenv().Finisheddd = true
 				end
 			
 			
@@ -9327,6 +9331,7 @@ local parts = loadModel(filePath)
                             for _, newPart in ipairs(newParts) do
                                 newpart(newPart.Size.X, newPart.Size.Y, newPart.Size.Z, tostring(newPart.CFrame), newPart.CFrame, newPart.Color)
                                 newPart:Destroy()
+				
                             end
                             --    DisplayText("[Vecko]: ", "Part was split into "..splitCount.." smaller parts.")
                         else
