@@ -9289,7 +9289,7 @@ end
 
                 return part
 		end)
-	wait(.2)
+	wait()
 	getgenv().Finisheddd = true
 				end
 			
