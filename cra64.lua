@@ -11635,7 +11635,6 @@ end
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace[p]:WaitForChild("HumanoidRootPart").CFrame*CFrame.new(0,0,2)*CFrame.Angles(0,110.05,0)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace[p]:WaitForChild("HumanoidRootPart").CFrame*CFrame.new(-0.2,0,1.85)*CFrame.Angles(0,110.05,0)
         task.wait()
-cht("unpunish/ all")
 	end
 	if cmd == prefix.."backface" then
 		local p = fp(t)
