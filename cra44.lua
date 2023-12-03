@@ -7893,7 +7893,6 @@ task.spawn(function() repeat wait() until lp.Backpack:FindFirstChild("DriveBloxU
 v.Parent = lp.Character
 v:Activate()
  end
-end
 		droptools()
 	end)
   task.spawn(function()
