@@ -14,7 +14,7 @@ local objs = workspace.Terrain._Game.Workspace.Obby:GetChildren()
 task.spawn(function()
 		for i, obj in pairs(objs) do
 			coroutine.wrap(function()
-				pcall(function()H
+				pcall(function()
 					obj.TouchInterest:Destroy()
 				
 				end)
