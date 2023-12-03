@@ -9335,7 +9335,6 @@ end
 				end)
 
                 return part
-		end)
 
 				end
 			
