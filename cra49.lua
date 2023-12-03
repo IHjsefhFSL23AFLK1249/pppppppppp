@@ -1336,6 +1336,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cp
 	end
 end)
 repeat task.wait() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = cp until game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame == cp
+			lp.Character.Humanoid.PlatformStand = true
 wait(.1999999)
 charclickivory()
 wait(.11)
