@@ -7848,6 +7848,44 @@ wait(.5)
 								end
 								
 							end
+		if cmd == prefix.."testcar" then
+			task.spawn(function()
+while trolering do
+	haiitv2()
+ for _, v in next, lp.Backpack:GetChildren() do
+v.Parent = lp.Character
+v.Parent = workspace
+ end
+end
+end)
+cht("char me 0000000000000000000000000000000004351070157")
+  task.wait()
+  cht("respawn me")
+task.wait()
+  cht("gear all 0000000000000000000000000253519495")
+  cht("gear all 0000000000000000000000000253519495")
+task.spawn(function() repeat wait() until lp.Backpack:FindFirstChild("DriveBloxUltimateCar") 
+		task.wait()
+ for _, v in next, lp.Backpack:GetChildren() do
+v.Parent = lp.Character
+v:Activate()
+ end
+		droptools()
+	end)
+ cht("<sspam unsize me me me")
+wait(.3)
+  cht("unsize me me me")
+  cht("unsize me me me")
+  cht("unsize me me me")
+  cht("unsize me me me")
+cht("unsize all all all")
+cht("unsize all all all")
+  for i = 0,103 do
+cht("unsize all all all")
+	  task.wait()
+  end
+		end
+
 							if cmd == prefix.. "bypvgcrash" then
 								cht("<noantivg")
 								cht("char me 0000000000000000000000000000000004351070157")
