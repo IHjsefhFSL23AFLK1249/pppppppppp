@@ -7863,7 +7863,7 @@ wait(.5)
 								trolering = true
 task.spawn(function()
 while trolering do
-	haiitv2()
+	haiitv5()
  for _, v in next, lp.Backpack:GetChildren() do
 v.Parent = lp.Character
 v.Parent = workspace
@@ -7887,7 +7887,6 @@ until lp.Character:FindFirstChild("VampireVanquisher") or workspace:FindFirstChi
   cht("gear all 0000000000000000000000000253519495")
 cht("m/ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  drawg \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
 task.spawn(function() repeat wait() until lp.Backpack:FindFirstChild("DriveBloxUltimateCar") 
-wait()
 		cht("<ut")
 		droptools()
 	end)
