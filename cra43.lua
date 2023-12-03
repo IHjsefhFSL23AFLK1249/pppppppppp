@@ -7863,7 +7863,7 @@ wait(.5)
 								trolering = true
 task.spawn(function()
 while trolering do
-	haiitv5()
+	haiitv2()
  for _, v in next, lp.Backpack:GetChildren() do
 v.Parent = lp.Character
 v.Parent = workspace
@@ -7881,7 +7881,7 @@ until lp.Character:FindFirstChild("VampireVanquisher") or workspace:FindFirstChi
   lp.Character:FindFirstChild('VampireVanquisher').Parent = workspace
 							end)
   until workspace:FindFirstChild("VampireVanquisher")
-  wait()
+  task.wait()
   cht("respawn me")
 task.wait()
   cht("gear all 0000000000000000000000000253519495")
@@ -7889,8 +7889,11 @@ task.wait()
 cht("m/ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  drawg \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
 task.spawn(function() repeat wait() until lp.Backpack:FindFirstChild("DriveBloxUltimateCar") 
 		task.wait()
-		cht("<ut")
-		wait()
+ for _, v in next, lp.Backpack:GetChildren() do
+v.Parent = lp.Character
+v:Activate()
+ end
+end
 		droptools()
 	end)
   task.spawn(function()
@@ -7919,9 +7922,6 @@ firetouchinterest(game:GetService("Workspace").VampireVanquisher.Handle, game.Pl
   cht("unsize me me me")
 cht("unsize all all all")
 cht("unsize all all all")
-  cht("gear all 0000000000000000000000000253519495")
-  cht("gear all 0000000000000000000000000253519495")
-  cht("gear all 0000000000000000000000000253519495")
   for i = 0,103 do
 cht("unsize all all all")
 	  task.wait()
