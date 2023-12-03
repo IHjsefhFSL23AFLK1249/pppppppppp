@@ -10602,6 +10602,23 @@ end)
   end
   end)
   end
+  if cmd == prefix.."realfixbp" then
+cht('respawn me')
+local freshing = lp.CharacterAdded:Wait()
+wait()
+movepart(game:GetService("Workspace").Terrain._Game.Workspace.Baseplate)
+wait(.19)
+cht("skydive me me me")
+cht("skydive me me me")
+cht("skydive me me me")
+cht("unseizure me me")
+cht("tp me me me")
+wait(.3)
+cht("respawn me")
+local freshing = lp.CharacterAdded:Wait()
+wait(.3)
+cht("<fixbp")
+end
   if cmd == prefix.."uno" then
 	  getgenv().uno81932 = true
 	  while getgenv().uno81932 do
