@@ -1269,8 +1269,6 @@ looping = true
 						game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 						game.Players.LocalPlayer.Character.PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = turgut.CFrame * CFrame.new(-1*(turgut.Size.X/2)-(game.Players.LocalPlayer.Character['HumanoidRootPart'].Size.X/2), 0, 0)
-														nograv()
-								game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 						
 						if not looping then break end
 					end
@@ -1351,8 +1349,6 @@ workspace.Camera.Focus = CFrame.new(-35.1678848, 5.19999933, 16.0815659, 1, 0, 0
 						game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 						game.Players.LocalPlayer.Character.PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
 						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = turgut.CFrame * CFrame.new(-1*(turgut.Size.X/2)-(game.Players.LocalPlayer.Character['HumanoidRootPart'].Size.X/2), 0, 0)
-						nograv()
-								game.Players.LocalPlayer.Character['Humanoid']:ChangeState(11)
 						if not looping then break end
 					end
 				end)
