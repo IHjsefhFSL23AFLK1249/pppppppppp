@@ -1380,7 +1380,7 @@ function move3(targete, cc)
 			turgut = v
 		end
 	end
-	local cp = stringToCFrame(cc) * CFrame.new(-1*(turgut.Size.X/2)-(lp.Character.HumanoidRootPart.Size.X/3 --[[haha funny number ecks dee]]),0,0)
+	local cp = stringToCFrame(cc) * CFrame.new(-1*(turgut.Size.X/2)-(lp.Character.HumanoidRootPart.Size.X/4 --[[haha funny number ecks dee]]),0,0)
 	if turgut.CFrame ~= cp then
 local center = turgut.Position
 	local radius = 0.2 + turgut.Size.X
