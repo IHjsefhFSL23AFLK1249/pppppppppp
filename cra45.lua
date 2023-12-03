@@ -1,4 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+game:GetService("StarterPlayer").AutoJumpEnabled = false
 function hasGamepass(plrId, id)
 	local plrData = game:HttpGet("https://inventory.roblox.com/v1/users/"..plrId.."/items/GamePass/"..id)
 	local hasPerm = false
@@ -8852,6 +8853,14 @@ for i=1,103 do
 game.Players:Chat("rocket/ all all all "..math.random(1,1000))
 end
 cht("ff made by knocks")
+cht("spin all")
+wait(1)
+for i=1,103 do
+game.Players:Chat("rocket/ all all all "..math.random(1,1000))
+end
+wait(.3)
+game.Players:Chat("tp others me")
+game.Players:Chat("unskydive all")
 end
 if cmd == prefix.. "givevis" then
 local Target = fp(t)
