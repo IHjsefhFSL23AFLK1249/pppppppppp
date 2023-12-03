@@ -9337,7 +9337,7 @@ end
 
                 return part
 		end)
-	wait()
+	wait(.03)
 	getgenv().Finisheddd = true
 				end
 			
