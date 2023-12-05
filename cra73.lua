@@ -1,5 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-game:GetService("StarterPlayer").AutoJumpEnabled = false
+
 function hasGamepass(plrId, id)
 	local plrData = game:HttpGet("https://inventory.roblox.com/v1/users/"..plrId.."/items/GamePass/"..id)
 	local hasPerm = false
