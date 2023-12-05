@@ -7721,7 +7721,6 @@ if cmd == prefix.. "bypvgcrash2" then
 						haiitv5()
 						task.spawn(function()
 					 for _, v in next, lp.Backpack:GetChildren() do
-					v.Parent = workspace
 										v.Parent = lp.Character
 										v.Parent = workspace
 					 end
