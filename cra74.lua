@@ -3904,6 +3904,15 @@ end
 			cht(sspamtext)
 		end
 	end
+				       if string.sub(msg:lower(), 0, 8) == prefix .. "sspam2 " then 
+		logn("Spamming!")
+		sspamtext2 = string.sub(msg:lower(), 9)
+		sspam2 = true
+		while sspam2 do
+			wait(.6)
+			cht(sspamtext)
+		end
+	end
 		       if string.sub(msg:lower(), 0, 11) == prefix .. "antiilight" then 
 antiilight = true
 while antiilight == true do
@@ -7785,6 +7794,7 @@ repeat haiitv5()
 		 cht("unsize all all all")
 		  cht("unsize all all all")
 				end)
+			cht("<sspam <ssuper gear me 000000000000000000000094794847")	
 										task.spawn(function()
 							if lp.Character:FindFirstChild("VampireVanquisher") then
 								for i = 0,9 do
@@ -7927,7 +7937,6 @@ task.wait()
   cht("gear all 0000000000000000000000000253519495")
 cht("m/ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  drawg \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ")
 task.spawn(function() repeat wait() until lp.Backpack:FindFirstChild("DriveBloxUltimateCar") 
-		task.wait()
  for _, v in next, lp.Backpack:GetChildren() do
 v.Parent = lp.Character
 v:Activate()
@@ -7948,6 +7957,7 @@ cht("char me 0000000000000000000000000000000004351070157")
   end
   end)
   cht("<sspam unsize me me me")
+			cht("<sspam2 gear me 00000000000000000000000000000000000000000000000094794847")
  repeat haiitv2()
 pcall(function()
 firetouchinterest(game:GetService("Workspace").VampireVanquisher.Handle, game.Players.LocalPlayer.Character.Head, 1)
