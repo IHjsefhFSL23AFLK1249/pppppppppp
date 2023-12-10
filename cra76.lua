@@ -7794,6 +7794,7 @@ repeat haiitv5()
 			cht("<sspam <ssuper gear me 000000000000000000000094794847")	
 										task.spawn(function()
 		while getgenv().trolering do
+			wait()
 							if lp.Character:FindFirstChild("VampireVanquisher") then
 								for i = 0,9 do
 									cht("unsize all all all")
