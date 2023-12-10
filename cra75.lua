@@ -7772,9 +7772,6 @@ if cmd == prefix.. "bypvgcrash2" then
 					end
 					end)		
 					cht("<ssuper gear me 000000000000000000000094794847")		
-					task.spawn(function()
-					while getgenv().trolering do
-						haiitv5()
 					
 repeat haiitv5() pcall(function() 
 	lp.Backpack:FindFirstChild("VampireVanquisher").Parent = lp.Character
@@ -7796,12 +7793,19 @@ repeat haiitv5()
 				end)
 			cht("<sspam <ssuper gear me 000000000000000000000094794847")	
 										task.spawn(function()
+		while getgenv().trolering do
 							if lp.Character:FindFirstChild("VampireVanquisher") then
 								for i = 0,9 do
 									cht("unsize all all all")
 								  end
 								end
+		end
 							end)
+if not workspace:FindFirstChild("VampireVanquisher") and not lp.Character:FindFirstChild("VampireVanquisher") and not lp.Backpack:FindFirstChild("VampireVanquisher") then
+	cht("<sm vgcrash fail so silcrash success")
+	wait(.1)
+	silcrashe2()
+end
 repeat haiitv5()
 	pcall(function()
 	firetouchinterest(game:GetService("Workspace").VampireVanquisher.Handle, game.Players.LocalPlayer.Character.Head, 1)
@@ -7813,8 +7817,6 @@ repeat haiitv5()
 		cht("unsize all all all")
 	  end
 	  wait(.01)
-	end
-end)
 							end
 							if cmd == prefix.. "pcrush" then
 								cht("<lg")
